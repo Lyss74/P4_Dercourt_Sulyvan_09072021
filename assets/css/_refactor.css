@@ -14,7 +14,7 @@ ul {
 ._flex {display: flex;}
 ._row {flex-direction: row;}
 ._row-rev {flex-direction: row-reverse;}
-._column {flex-direction: colum;}
+._column {flex-direction: column;}
 ._column-rev {flex-direction: column-reverse;}
 ._wrap {flex-wrap: wrap;}
 ._no-wrap {flex-wrap: nowrap}
