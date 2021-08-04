@@ -15,7 +15,7 @@ img {display: block; object-fit: cover; margin: 0%; padding: 0%; max-height: 100
 ._flex {display: flex;}
 ._row {flex-direction: row;}
 ._row-rev {flex-direction: row-reverse;}
-._column {flex-direction: column;}
+._column {flex-direction: colum;}
 ._column-rev {flex-direction: column-reverse;}
 ._wrap {flex-wrap: wrap;}
 ._no-wrap {flex-wrap: nowrap}
