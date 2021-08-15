@@ -17,7 +17,7 @@ h3 {color: white;}
 ._flex {display: flex;}
 ._row {flex-direction: row;}
 ._row-rev {flex-direction: row-reverse;}
-._column {flex-direction: colum;}
+._column {flex-direction: column;}
 ._column-rev {flex-direction: column-reverse;}
 ._wrap {flex-wrap: wrap;}
 ._no-wrap {flex-wrap: nowrap}
@@ -117,15 +117,38 @@ h3 {color: white;}
 }
 
 /*---------------*\
-   · SCROLL · btn-dbloc-button
+   · SCROLL · 
 \*---------------*/
+._box {
+    position: absolute;
+    bottom: 10%; right: 10%;
+}
 ._scroll-pos {
-    margin-top: -13rem;
-    margin-left: 85rem;
-    background-color: rgba(128, 128, 128, 0.11);
+
     border: solid rgba(0, 0, 0, 0.048);
+
 }
 ._scroll-pos:hover {
     background-color: rgba(128, 128, 128, 0.349);
     border: solid rgba(0, 0, 0, 0.048);
+}
+
+@media only screen and (min-width: 200px) and (max-width: 800px){
+    ._img {
+        width: 100%;
+    }
+    ._text { 
+        font-size: 18px;
+    }
+    ._direction {
+        display: flex;
+        flex-direction: column;
+    }
+    ._mr {
+        margin-left: auto;
+        margin-right: auto;
+  }  
+    ._box { 
+        display: none;
+    }
 }
