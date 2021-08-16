@@ -1,13 +1,25 @@
 .PROD {
     background-color: yellow;
 }
+.PROD1 {
+    background-color: orange;
+}
+.PROD2 {
+    background-color: red;
+}
+.PROD3 {
+    background-color: purple;
+}
+.PROD4 {
+    background-color: blue;
+}
 /*--------------------*\
    · DYNAMIC PARAM ·
 \*--------------------*/
 * {box-sizing: border-box;}
 ul {list-style: none;}
-ul, figure {margin: 0; padding: 0; height: 100%;}
-a, .a {text-decoration: none; margin: 0;}
+ul, figure {margin: 0; padding: 0;}
+a, .a {text-decoration: none; font-size: 18px; margin: 0;}
 img {display: block; object-fit: cover; margin: 0; padding: 0; max-height: 100%; max-width: 100%;}
 h3 {color: white;}
 
@@ -27,14 +39,28 @@ h3 {color: white;}
 ._evenly {align-content: space-evenly; justify-content: space-evenly}
 ._center {align-content: center; justify-content: center}
 ._align-item-ctr {align-items: center;}
-
+._flex-end {justify-content: flex-end;}
 /*------------------*\
    · MARGIN PARAM ·
 \*------------------*/
+._text-align-end {
+    text-align: end
+}
 ._mr-auto {
     margin: auto;
 }
-
+._mr {
+    margin-left: 80%;
+}
+._full {
+    width: 100%;
+}
+._ctc-size {
+    width: 40%;
+}
+._nav-size {
+    width: 100%;
+}
 /*--------------------------------*\
    · IMPLEMENT HTML BALISE STYLE ·
 \*--------------------------------*/
@@ -54,9 +80,9 @@ h3 {color: white;}
     width: 90%;
 }
 ._logo-size {
-        max-width: 100%;
-    height: 30%;
-    width: 30%;
+    max-width: 100%;
+    height: 25%;
+    width: 25%;
 }
 /*-----------------------*\
    · LINEAR BACKGROUND ·
@@ -80,21 +106,21 @@ h3 {color: white;}
    · IMAGE TEXT ·
 \*---------------*/
     @font-face {
-    font-family: 'Kingthings Petrock', Helvetica, sans-serif;;
+    font-family: 'Kingthings Petrock';
     font-style: normal;
     font-weight: normal;
     src: local('Kingthings Petrock'), url('../font/Kingthings_Petrock.woff') format('woff');
     }
     @font-face {
-    font-family: 'Kingthings PetrockLight', Helvetica, sans-serif;;
+    font-family: 'Kingthings PetrockLight', Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     src: local('Kingthings PetrockLight'), url('../font/Kingthings_Petrock_light.woff') format('woff');
     }
 ._title-name {
-	font-family:'Kingthings Petrock', Helvetica, sans-serif;
-	font-weight:normal;
-	font-size: 30px;
+	font-family: 'Kingthings Petrock', Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 40px;
     color: black;
 }
 ._portfolio-title {
@@ -115,10 +141,15 @@ h3 {color: white;}
 }
 ._title {
     font-family: Helvetica, sans-serif;
-        font-size: 24px;
-        color: #5D5E7B;
+    font-size: 24px;
+    color: #5D5E7B;
 }
-
+._fig-size {
+    width: 70%;
+}
+._full-size {
+    width: 100%;
+}
 /*---------------*\
    · SCROLL · 
 \*---------------*/
@@ -136,7 +167,10 @@ h3 {color: white;}
     border: solid rgba(0, 0, 0, 0.048);
 }
 
-@media only screen and (min-width: 200px) and (max-width: 800px){
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+    ._title-name {
+        font-size: 24px;
+    }
     ._img {
         width: 100%;
     }
