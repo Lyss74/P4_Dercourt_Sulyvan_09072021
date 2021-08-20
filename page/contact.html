@@ -94,27 +94,31 @@
 						<div class="container bloc-lg">
 							<div class="row">
 								<div class="col-sm-6">
-									<form id="form_1" class="_flex _column _around" novalidate success-msg="Votre message est bien envoyé." fail-msg="Désoler, votre message n’a pu être envoyé, sans soute une panne serveur, réessayer ultérieurement">
-										<div class="input-group _margin">
-											<span class="input-group-addon" id="basic-addon1">Nom :</span>
-											<input type="text" class="form-control" placeholder="Nom" aria-describedby="Votre nom">
-										  </div>
-
-										  <div class="input-group _margin">
-											<span class="input-group-addon" id="basic-addon1">Adresse email</span>
-											<input type="text" class="form-control" placeholder="@" aria-describedby="Votre adresse email">
-										  </div>
-										  
-										  <div class="input-group-xs _margin">
-											<span class="input-group-addon" id="basic-addon1">Comment nous avez-vous connu ?</span>
-											<input type="text" class="form-control" placeholder="Réseaux sociaux, bouche à oreille ?" aria-describedby="Comment nous avez-vous connu ?">
-										  </div>
-										  
-										  <div class="input-group-xs _margin">
-											<span class="input-group-addon" id="basic-addon1">Brief de votre projet (Ajoutez autant de détails que nécessaire)</span>
-											<input type="text" class="form-control" placeholder="Site vitrine, application, analyse SEO..." aria-describedby="Description du projet">
-										  </div>									
-										  <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+									<form id="form_1" novalidate="">
+										<div class="form-group" role="group" aria-labelledby="coordonnees">
+											<label for="name">
+												Nom
+											</label>
+											<input id="name" class="form-control" aria-required="true" aria-label="Saisir votre nom">
+										</div>
+										<div class="form-group">
+											<label for="email">
+												Adresse email
+											</label>
+											<input id="email" class="form-control" type="email" aria-required="true" aria-label="Saisir votre email">
+										</div>
+										<div class="form-group">
+											<label for="message">
+												Comment nous avez-vous connu ?
+											</label>
+											<input class="form-control" type="text" aria-required="true" aria-label="indiquez comment vous nous avez connu" id="input_text">
+										</div>
+										<div class="form-group">
+											<label for="message">
+												Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+											</label><textarea id="message" class="form-control" rows="4" cols="50" aria-required="true" aria-label="decrivez nous votre projet en détail"></textarea>
+										</div>
+										<button class="btn-rd bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" aria-label="envoyez votre message" type="submit">
 											Envoyer
 										</button>
 									</form>
