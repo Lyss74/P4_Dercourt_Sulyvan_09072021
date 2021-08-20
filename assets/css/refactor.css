@@ -2,7 +2,7 @@
 * PostCSS: v8.3.6,
 * Autoprefixer: v10.3.1
 * Browsers: last 4 version*/
-
+.PROD {background-color: red;}
 /*--------------------*\
    · DYNAMIC PARAM ·
 \*--------------------*/
@@ -52,7 +52,9 @@ h3 {color: white;}
 ._nav-size {
     width: 100%;
 }
-
+._margin {
+    margin: 2%;
+}
 /*--------------------------------*\
    · IMPLEMENT HTML BALISE STYLE ·
 \*--------------------------------*/
