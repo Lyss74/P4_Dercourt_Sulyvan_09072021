@@ -20,3 +20,28 @@
 * Optimiser le référencement d’un site web
 * Réaliser une recherche des bonnes pratiques en développement web
 * Optimiser la taille et la vitesse d’un site web
+
+
+# Table des matières :
+
+## 1 · Performance :
+    - 1.1 · Structure dossier/fichiers :
+    - 1.2 · Images :
+    - 1.3 · CSS :
+    - 1.4 · JS :
+    - 1.5 · **Résumé des améliorations de performance :**
+## 2 · Bonne pratique :
+    - 2.1 · Structure des fichiers HTML :
+    - 2.2 · **Résumé des améliorations des bonnes pratiques :**
+## 3 · SEO :
+    - 3.1 · Google Analytics :
+    - 3.2 · Meta configuration :
+    - 3.3 · Review keywords list :
+    - 3.4 · Review global structure (grey, black hat) :
+    - 3.5 · Review structure title text and alternative text :
+    - 3.6 · **Résumé des améliorations SEO :**
+## 4 · Accessibilité :
+    - 4.1 · Revue de la structure de l’accessibilité :
+    - 4.2 · **Résumé de l’accessibilité :**
+## 5 · Liste des modifications :
+    - MODIFICATION n°1 à MODIFICATION n°15
