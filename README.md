@@ -4,7 +4,6 @@
 
 ## Liens :
 * Optimiser un site existant :
-- Adresse de la présentation et l’analyse complète : https://grandiose-antler-b9a.notion.site/Pr-sentation-La-chouette-agence-0235b13dcc0b4ddbb320fb7aa571269c
 - Dépôt Git : https://github.com/Lyss74/P4_Dercourt_Sulyvan_09072021/blob/main/README.md
 - URL du site : https://lyss74.github.io/P4_Dercourt_Sulyvan_09072021
 - Page d’accueil du projet : https://openclassrooms.com/fr/paths/185/projects/638/assignment
