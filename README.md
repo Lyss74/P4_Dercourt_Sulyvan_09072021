@@ -1,4 +1,4 @@
-![Logo of the project](https://zupimages.net/viewer.php?id=21/34/ol9k.jpg)
+![Logo of the project](https://www.zupimages.net/up/21/34/ol9k.jpg)
 
 ## · La Chouette Agence : Web design à Lyon ·
 
