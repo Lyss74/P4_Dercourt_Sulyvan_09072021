@@ -1,4 +1,4 @@
-/* Prefixed by https://autoprefixer.github.io
+/* /* Prefixed by https://autoprefixer.github.io #8F340A text #121212 */
 * PostCSS: v8.3.6,
 * Autoprefixer: v10.3.1
 * Browsers: last 4 version*/
@@ -131,6 +131,17 @@ h3 {color: white;}
 ._style-text {
     font-size: 1.8rem!important;
     font-weight: bolder;
+}
+._text-color {
+    color: black 
+}
+._border-icon {
+    -webkit-text-stroke: 1px black;
+}
+._font-size {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
 }
 ._portfolio-title {
     font-family: Helvetica, sans-serif;
